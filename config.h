@@ -137,10 +137,10 @@ static const char *colorname[] = {
 };
 
 
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
+
+ /* Default colors (colorname index)*/
+ /* foreground, background, cursor, reverse cursor*/
+
 unsigned int defaultfg = 259;
 unsigned int defaultbg = 258;
 unsigned int defaultcs = 256;
@@ -153,7 +153,7 @@ unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
